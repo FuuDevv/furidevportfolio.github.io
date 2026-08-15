@@ -22,7 +22,6 @@
 
 body {
     background: var(--background);
-
     color: var(--text);
 
     font-family:
@@ -37,20 +36,15 @@ body {
 
 a {
     color: inherit;
-
     text-decoration: none;
 }
 
 
-/* =========================
-   NAVBAR
-========================= */
+/* NAVBAR */
 
 .navbar {
     position: sticky;
-
     top: 0;
-
     z-index: 100;
 
     background: rgba(8, 10, 9, 0.88);
@@ -62,17 +56,13 @@ a {
 
 .navbar-content {
     max-width: 1150px;
-
     height: 72px;
 
     margin: auto;
-
     padding: 0 25px;
 
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
 }
 
@@ -82,7 +72,6 @@ a {
     color: var(--white);
 
     font-size: 22px;
-
     font-weight: bold;
 
     letter-spacing: -1px;
@@ -94,7 +83,6 @@ a {
 
 nav {
     display: flex;
-
     gap: 30px;
 }
 
@@ -114,13 +102,11 @@ nav a:hover {
     padding: 9px 15px;
 
     border: 1px solid var(--border);
-
     border-radius: 5px;
 
     color: var(--green);
 
     font-family: Consolas, monospace;
-
     font-size: 11px;
 
     transition: 0.2s;
@@ -131,9 +117,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   HERO
-========================= */
+/* HERO */
 
 .hero {
     max-width: 1150px;
@@ -145,9 +129,7 @@ nav a:hover {
     padding: 100px 25px;
 
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
 
     gap: 70px;
@@ -218,9 +200,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   CHART
-========================= */
+/* CHART */
 
 .chart-card {
     width: 100%;
@@ -278,9 +258,6 @@ nav a:hover {
 
     font-size: 9px;
 }
-
-
-/* CHART AREA */
 
 .chart-area {
     display: flex;
@@ -356,7 +333,6 @@ nav a:hover {
     inset: 0;
 
     width: 100%;
-
     height: 100%;
 }
 
@@ -368,7 +344,9 @@ nav a:hover {
     stroke-width: 3;
 
     filter:
-        drop-shadow(0 0 6px rgba(184, 255, 85, 0.3));
+        drop-shadow(
+            0 0 6px rgba(184, 255, 85, 0.3)
+        );
 }
 
 .graph-fill {
@@ -387,7 +365,9 @@ nav a:hover {
     fill: var(--green);
 
     filter:
-        drop-shadow(0 0 8px rgba(184, 255, 85, 0.7));
+        drop-shadow(
+            0 0 8px rgba(184, 255, 85, 0.7)
+        );
 }
 
 .graph-label {
@@ -402,31 +382,26 @@ nav a:hover {
 
 .label-one {
     bottom: 12px;
-
     left: 0;
 }
 
 .label-two {
     bottom: 12px;
-
     left: 27%;
 }
 
 .label-three {
     bottom: 12px;
-
     left: 50%;
 }
 
 .label-four {
     bottom: 12px;
-
     left: 72%;
 }
 
 .label-five {
     right: 0;
-
     bottom: 12px;
 
     color: var(--green);
@@ -453,9 +428,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   SECTIONS
-========================= */
+/* SECTIONS */
 
 .section {
     max-width: 1150px;
@@ -512,9 +485,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   ABOUT
-========================= */
+/* ABOUT */
 
 .about-grid {
     display: grid;
@@ -535,9 +506,6 @@ nav a:hover {
 .about-text p {
     margin-bottom: 25px;
 }
-
-
-/* IDENTITY CARD */
 
 .identity-card {
     align-self: start;
@@ -565,13 +533,11 @@ nav a:hover {
 
 .avatar {
     width: 48px;
-
     height: 48px;
 
     display: flex;
 
     align-items: center;
-
     justify-content: center;
 
     border-radius: 50%;
@@ -624,16 +590,20 @@ nav a:hover {
 }
 
 
-/* =========================
-   INTERESES
-========================= */
+/* INTERESES */
 
 .interests-section {
     max-width: none;
 
-    padding-left: max(25px, calc((100% - 1100px) / 2));
+    padding-left: max(
+        25px,
+        calc((100% - 1100px) / 2)
+    );
 
-    padding-right: max(25px, calc((100% - 1100px) / 2));
+    padding-right: max(
+        25px,
+        calc((100% - 1100px) / 2)
+    );
 
     background: var(--background-2);
 
@@ -676,7 +646,6 @@ nav a:hover {
     position: absolute;
 
     top: 25px;
-
     right: 25px;
 
     color: #394139;
@@ -716,7 +685,6 @@ nav a:hover {
     position: absolute;
 
     bottom: 25px;
-
     left: 25px;
 
     color: #555e56;
@@ -727,9 +695,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   PROYECTOS
-========================= */
+/* PROYECTOS */
 
 .projects-container {
     border-top: 1px solid var(--border);
@@ -761,13 +727,11 @@ nav a:hover {
 
 .project-icon {
     width: 65px;
-
     height: 65px;
 
     display: flex;
 
     align-items: center;
-
     justify-content: center;
 
     border: 1px solid #293029;
@@ -814,9 +778,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   CONTACTO
-========================= */
+/* CONTACTO */
 
 .contact-section {
     padding: 160px 25px;
@@ -863,9 +825,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   DISCORD
-========================= */
+/* DISCORD */
 
 .discord-button {
     padding: 20px 45px;
@@ -939,9 +899,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   FOOTER
-========================= */
+/* FOOTER */
 
 footer {
     border-top: 1px solid var(--border);
@@ -984,18 +942,12 @@ footer {
 }
 
 
-/* =========================
-   RESPONSIVE
-========================= */
+/* RESPONSIVE */
 
 @media (max-width: 900px) {
 
     nav {
         display: none;
-    }
-
-    .hero {
-        padding-top: 80px;
     }
 
     .about-grid {
@@ -1083,7 +1035,6 @@ footer {
 
     .project-icon {
         width: 50px;
-
         height: 50px;
     }
 
